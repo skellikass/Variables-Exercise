@@ -10,7 +10,7 @@
           double myGradePointAvg = 3.87;
           decimal myChanceOfFailure = 0.0000000000000001m;
 
-            Console.WriteLine($"My name is {myName}, and I am {myAge} years old.  I have always been an {myGrade} student with a ~{myGradePointAvg} grade point average, this is {myTruth}.  Therefore, I believe my chance of failure for becoming a software engineer is {myChanceOfFailure}%.");
+            Console.WriteLine($"My name is {myName}, and I am {myAge} years old.  I have always been an {myGrade} student with a ~{myGradePointAvg} grade point average, this is {myTruth.ToString().ToLower()}.  Therefore, I believe my chance of failure for becoming a software engineer is {myChanceOfFailure}%.");
         }
     }
 }
